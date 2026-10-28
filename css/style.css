@@ -6,6 +6,16 @@
     --color-text:#2B2B2B;
     --color-Flip:#F5F1E8 ;
     --color-card:#FBF9F3;
-    --font-:"Shippori Mincho", serif;
-    --font-: "Noto Sans JP", sans-serif;    
+    --font-headline:"Shippori Mincho", serif;
+    --font-main: "Noto Sans JP", sans-serif;    
+}
+
+/*共通部分*/
+body {
+    font-family: var(--font-main);
+    background-color: var(--color-base);
+}
+
+section {
+    padding: 0 16px;
 }
