@@ -19,3 +19,60 @@ body {
 section {
     padding: 0 16px;
 }
+
+
+
+
+.page-footer {
+    background-image: url(../images/footer-s.webp);
+    background-size: cover;
+    background-position: center;
+    padding-top: 12rem;
+}
+
+/*------ 購入方法・取扱店舗 -----*/
+
+
+.page-title {
+    font-family: var(--font-headline);
+    color: var(--color-Flip);
+
+}
+
+.shop-Method {
+    height: 300px;
+    
+}
+
+
+.info {
+    width: 100%;
+    
+    margin: auto;
+    padding: 0 1.5rem;
+    border-spacing: 0;
+}
+
+.info .info-heading,
+.info-data {
+    border-bottom: 1px solid var(--color-accent);
+}
+
+.info-heading {
+    color: var(--color-sub);
+}
+
+
+.info-heading--first{
+    color: var(--color-header);
+    font-family: var(--font-headline);
+}
+.info .info-heading {
+    text-align: left;
+    font-weight: normal;
+    padding: 1rem;
+}
+
+.info .info-data {
+    padding: 1rem 0;
+}
