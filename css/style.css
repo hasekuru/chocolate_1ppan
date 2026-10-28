@@ -19,3 +19,24 @@ body {
 section {
     padding: 0 16px;
 }
+
+boby {
+    background-color: #F5F1E8;
+}
+
+/* 本文部分 */
+.subtitle {
+  color: #6D2E46;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+p {
+  font-size: 15px;
+}
+
