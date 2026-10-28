@@ -1,11 +1,54 @@
+/* 共通 */
 :root {
     --color-base:#F5F1E8;
     --color-header:#223A5E;
     --color-accent:#C9A227;
     --color-sub:#6D2E46;
     --color-text:#2B2B2B;
-    --color-Flip:#F5F1E8 ;
+    --color-flip:#F5F1E8 ;
     --color-card:#FBF9F3;
-    --font-:"Shippori Mincho", serif;
-    --font-: "Noto Sans JP", sans-serif;    
+    --font-h:"Shippori Mincho", serif;
+    --font-main: "Noto Sans JP", sans-serif;    
 }
+
+body {
+    background-color: var(--color-base);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+
+/* フォントファミリー */
+
+.font-h {
+    font-family: var(--font-h);
+    font-style: normal;
+}
+
+.font-main {
+    font-family: var(--font-main);
+    font-style: normal;
+}
+
+/* ヘッダー */
+
+.header {
+    padding: 0 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    font-size: ;    
+}
+
+
+
